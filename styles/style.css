@@ -70,7 +70,7 @@ header ul {
     font-size: 20px;
     font-weight: 400;
     line-height: 36px;
-    list-style: url("../images/check\ icon.png");
+    list-style: url("../images/check_icon.png");
     margin-bottom: 0;
     text-shadow: 2px 2px 0 #000000 
 }
@@ -122,7 +122,7 @@ section {
 }
 
 .dignityProductColumns li {
-    background: url("../images/plus\ icon.png") no-repeat left 5px;
+    background: url("../images/plus_icon.png") no-repeat left 5px;
     padding-left: 40px;
     line-height: 24px;
     margin-top: 15px;
@@ -323,16 +323,16 @@ footer h2 {
 }
 
 .contactsSkype {
-    background: url(../images/skype\ icon.png) no-repeat left center;
+    background: url(../images/skype_icon.png) no-repeat left center;
 }
 .contactsICQ {
-    background: url(../images/icq\ icon.png) no-repeat left center;
+    background: url(../images/icq_icon.png) no-repeat left center;
 }
 .contactsEmail {
-    background: url(../images/email\ icon.png) no-repeat left center;
+    background: url(../images/email_icon.png) no-repeat left center;
 }
 .contactsPhone {
-    background: url(../images/phone\ icon.png) no-repeat left center;
+    background: url(../images/phone_icon.png) no-repeat left center;
 }
 
 .contactsSocials {
