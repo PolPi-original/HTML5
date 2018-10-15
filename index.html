@@ -7,7 +7,10 @@
 </head>
 <body>
     <header>
-        <img src="images/image1.jpg" alt="">
+        <!-- <img src="images/image1.jpg" alt=""> -->
+        <video autoplay loop>
+            <source src="video/video1.mp4" type="video/mp4">
+        </video>
         <h1>Product name</h1>
         <ul>
             <li>Put on this page information about your product</li>
@@ -19,7 +22,8 @@
     </header>
     <main>
         <section class="aboutProduct">
-            <img src="images/image1.jpg" alt="">
+            <video src="video/video2.mp4" controls autoplay loop></video>
+            <!-- <img src="images/image1.jpg" alt=""> -->
             <h2>About your product</h2>
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quae quas dolorum ullam? Eveniet itaque enim, blanditiis repellendus totam deleniti asperiores facilis illo exercitationem quisquam non ea earum dolorum atque tenetur!</p>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi cum consequuntur perferendis earum eum facere non et quis, ullam accusamus a harum, architecto pariatur reiciendis. Animi maiores officia ipsa aperiam.</p>
@@ -184,9 +188,9 @@
         <h2>Contacts</h2>
         <div class="contacts">
             <form action="index.html" method="post">
-                <input type="text" name="name" placeholder="Your name:">
-                <input type="text" name="email" placeholder="Your email:">
-                <textarea name="message" placeholder="Your message:"></textarea>
+                <input type="text" name="name" placeholder="Your name:" pattern="^([A-Za-zА-Яа-я]+)$" required>
+                <input type="text" name="email" placeholder="Your email:" pattern="^([A-Za-z0-9\.-]+)(@)([A-Za-z0-9\.-]+)(\.)([A-Za-z0-9\.-]{2,})$" required>
+                <textarea name="message" placeholder="Your message:" required></textarea>
                 <input type="submit" value="SEND">
             </form>                
             <address>
